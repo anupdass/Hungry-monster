@@ -5,7 +5,7 @@ const searchMealHandler = () => {
     fetch(searchURL)
         .then(res => res.json())
         .then(data => createMeals(data.meals));
-        searchInput.value = "";
+    searchInput.value = "";
 }
 
 // meal List ....
@@ -23,9 +23,10 @@ const createMeals = (meals) => {
         mealDiv.innerHTML = mealInfo;
         mealsElement.appendChild(mealDiv);
 
+        const id = meal.idMeal;
         // single Meal Details .......
-        mealDiv.addEventListener('click', function () {
-            console.log("I am clicked");
+        mealDiv.addEventListener('click', function(){
+            alert("I can't do item details. Please make a Video Solve this problem. and Upload in a Module");
         })
     }
 

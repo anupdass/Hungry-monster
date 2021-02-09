@@ -59,3 +59,16 @@ a {
     color: white;
     border-radius: 10px;
 }
+.ingredient{
+    align-items: center;
+}
+.ingredient img {
+width: 30%;
+border-radius: 15px;
+}
+#meals-details{
+    width: 1000px ;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
